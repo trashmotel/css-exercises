@@ -27,7 +27,7 @@ body {
   flex-flow: row wrap;
 }
 
-.title {
+.header {
   display: flex;
   align-items: center;
 }
