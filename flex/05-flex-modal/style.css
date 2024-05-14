@@ -24,6 +24,7 @@ body {
 
 .message {
   display: flex;
+  flex-flow: row wrap;
 }
 
 .icon {
