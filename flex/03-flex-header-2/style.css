@@ -19,6 +19,7 @@ body {
 .left,
 .right {
   display: flex;
+  gap: 16px;
 }
 
 .profile-image {
