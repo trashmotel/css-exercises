@@ -29,6 +29,7 @@ body {
 
 .title {
   display: flex;
+  align-items: center;
 }
 
 .icon {
