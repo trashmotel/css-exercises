@@ -25,19 +25,27 @@ body {
   padding: 16px;
 }
 
-.message {
+/*This section was completely unnecessary and made the close button stick to the message */
+
+/* .message {
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
   gap: 4px;
-}
+} */
 
 .header {
   display: flex;
   align-items: center;
-  gap: 128px;
+  /* gap: 128px; */
+  justify-content: space-between;
+  margin-bottom: 8px; /*added after looking at solution*/
   font-size: large;
   font-weight: bold;
+}
+
+.text {
+  margin-bottom: 16px; /*added after looking at solution*/
 }
 
 .icon {
