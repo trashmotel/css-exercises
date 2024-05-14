@@ -16,6 +16,8 @@ body {
 }
 
 .profile-image {
+  display: flex;
+  justify-content: flex-end;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -31,6 +33,7 @@ body {
 }
 
 button {
+  /* display: flex; */
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
