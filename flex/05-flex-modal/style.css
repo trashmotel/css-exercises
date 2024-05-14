@@ -27,6 +27,10 @@ body {
   flex-flow: row wrap;
 }
 
+.title {
+  display: flex;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
