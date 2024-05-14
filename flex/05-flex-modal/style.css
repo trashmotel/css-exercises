@@ -28,6 +28,7 @@ body {
 .message {
   display: flex;
   flex-flow: row wrap;
+  align-content: space-between;
   gap: 4px;
 }
 
