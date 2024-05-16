@@ -13,6 +13,7 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
+  font-weight: bold;
   border: none;
   border-radius: 8px;
   background: #eee;
@@ -45,6 +46,10 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.buttons {
+  font-weight: bold;
 }
 
 ul {
