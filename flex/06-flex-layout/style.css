@@ -16,7 +16,6 @@ img {
 
 button {
   font-family: Roboto, sans-serif;
-  font-weight: bold;
   padding: 10px;
   border: none;
   border-radius: 8px;
@@ -38,7 +37,7 @@ input {
 }
 
 .footer {
-  background-color: whitesmoke;
+  background-color: #eeeeee;
 }
 
 .left-links, .right-links {
