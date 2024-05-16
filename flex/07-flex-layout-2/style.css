@@ -33,6 +33,10 @@ body {
   border-radius: 4px;
 }
 
+.container {
+  display: flex;
+}
+
 ul {
   list-style: none;
   padding: 0;
