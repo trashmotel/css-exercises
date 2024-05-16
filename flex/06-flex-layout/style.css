@@ -32,6 +32,10 @@ input {
   margin: 0 16px;
 }
 
+.footer {
+  background-color: lightslategray;
+}
+
 .left-links, .right-links {
   gap: 16px;
 }
