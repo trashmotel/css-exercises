@@ -26,6 +26,10 @@ input {
   margin-bottom: 16px;
 }
 
+.header, .footer {
+  display: flex;
+}
+
 ul {
   display: flex;
   list-style-type: none;
