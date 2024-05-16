@@ -31,6 +31,10 @@ input {
   justify-content: space-between;
 }
 
+.left-links, .right-links {
+  gap: 16px;
+}
+
 ul {
   display: flex;
   list-style-type: none;
