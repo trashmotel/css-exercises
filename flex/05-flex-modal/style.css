@@ -16,10 +16,36 @@ body {
 }
 
 .modal {
+  display: flex;
+  gap: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+}
+
+/*This section was completely unnecessary and made the close button stick to the message */
+
+/* .message {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  gap: 4px;
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  /* gap: 128px; */
+  justify-content: space-between;
+  margin-bottom: 8px; /*added after looking at solution*/
+  font-size: large;
+  font-weight: bold;
+}
+
+.text {
+  margin-bottom: 16px; /*added after looking at solution*/
 }
 
 .icon {
@@ -33,6 +59,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -48,6 +75,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
 }
 
 button {

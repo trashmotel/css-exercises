@@ -9,12 +9,23 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .profile-image {
+  flex-shrink: 0;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -30,6 +41,7 @@ body {
 }
 
 button {
+  /* display: flex; */
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -44,5 +56,9 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
 }
